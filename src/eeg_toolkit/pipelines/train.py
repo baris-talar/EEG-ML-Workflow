@@ -15,8 +15,8 @@ from eeg_toolkit.modeling import (
 )
 
 
-DEFAULT_DATASET_PATH = "python_package/examples/tests/artifacts/eeg_calibration_dataset.npz"
-DEFAULT_MODEL_PATH = "python_package/examples/tests/artifacts/eeg_logreg_model.joblib"
+DEFAULT_DATASET_PATH = "artifacts/eeg_calibration_dataset.npz"
+DEFAULT_MODEL_PATH = "artifacts/eeg_logreg_model.joblib"
 
 
 def _input_with_default(prompt_text, default_value):

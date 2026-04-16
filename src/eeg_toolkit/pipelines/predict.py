@@ -18,7 +18,7 @@ from eeg_toolkit.preprocess import (
 from eeg_toolkit.windowing import iter_windows, split_into_blocks
 
 
-DEFAULT_MODEL_PATH = "python_package/examples/tests/artifacts/eeg_logreg_model.joblib"
+DEFAULT_MODEL_PATH = "artifacts/eeg_logreg_model.joblib"
 DEFAULT_RECORDING_DURATION_SEC = 20
 DEFAULT_BLOCK_DURATION_SEC = 5
 DEFAULT_RANDOM_SEED = 42

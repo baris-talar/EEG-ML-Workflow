@@ -21,7 +21,7 @@ DEFAULT_BLOCK_DURATION_SEC = 5
 DEFAULT_WINDOW_DURATION_SEC = 1
 DEFAULT_RANDOM_SEED = 42
 DEFAULT_APPLY_PREPROCESSING = True
-DATASET_OUTPUT_PATH = "python_package/examples/tests/artifacts/eeg_calibration_dataset.npz"
+DATASET_OUTPUT_PATH = "artifacts/eeg_calibration_dataset.npz"
 
 
 def _input_with_default(prompt_text, default_value):
