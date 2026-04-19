@@ -5,18 +5,23 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eeg-personalization-toolkit"
 version = "0.1.0"
+description = "Lightweight EEG → ML workflow on BrainFlow (calibration, training, prediction, inspection)."
+readme = "README.md"
 requires-python = ">=3.9"
+license = { text = "MIT" }
 dependencies = [
     "numpy",
     "scikit-learn",
     "brainflow",
     "matplotlib",
+    "joblib",
 ]
 
 [project.scripts]
 eeg-calibrate = "eeg_toolkit.pipelines.calibrate:main"
 eeg-train = "eeg_toolkit.pipelines.train:main"
 eeg-predict = "eeg_toolkit.pipelines.predict:main"
+eeg-visualize = "eeg_toolkit.visualize_eeg:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
